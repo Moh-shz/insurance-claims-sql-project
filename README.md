@@ -6,22 +6,10 @@ The goal is to explore **claim rates** by region, customer demographics, vehicle
 
 ---
 
-## Project Structure
+## 📂 Project Structure
 
 ```
 /insurance-claims-sql-project/
-│
-├── sql scripts/                   # all SQL scripts
-│   ├── schema.sql                 # schema creation (staging + base tables)
-│   ├── populate.sql               # insert data from staging to base tables
-│   └── queries.sql                # analytical queries (claims by region, age, etc.)
-│
-├── results/                       # outputs of queries
-│   ├── claims_by_region.csv
-│   ├── claims_by_age_group.csv
-│   ├── claims_by_safety_features.csv
-│   ├── claims_by_model.csv
-│   └── claims_by_age_region_fuel.csv
 │
 ├── dashboard/
 │   ├── Insurance Claims Dashboard.twb
@@ -29,10 +17,22 @@ The goal is to explore **claim rates** by region, customer demographics, vehicle
 │
 ├── docs/
 │   ├── load_data_instructions.md  # step-by-step guide to import CSV and run SQL scripts
-│   └── index.html		   # embed code to display Tableau Dashboard via GitHub Pages 
+│   └── index.html		             # embed code to display Tableau Dashboard via GitHub Pages
 │
 ├── raw data/                      # dataset
 │   └── Insurance claims data.csv
+│
+├── results/                       # outputs of queries
+│   ├── claims_by_age_region_fuel.csv
+│   ├── claims_by_model.csv
+│   ├── claims_by_age_group.csv
+│   ├── claims_by_region.csv
+│   └── claims_by_safety_features.csv
+│
+├── sql scripts/                   # all SQL scripts
+│   ├── schema.sql                 # schema creation (staging + base tables)
+│   ├── populate.sql               # insert data from staging to base tables
+│   └── queries.sql                # analytical queries (claims by region, age, etc.)
 │
 └── README.md                      # project overview, steps, insights, dashboard
 ```
@@ -97,7 +97,7 @@ This dashboard is also published on Tableau Public:
 
 ---
 
-## Raw Data Source
+## 📑 Raw Data Source
 
 The dataset used in this project comes from [Kaggle - Insurance Claims Dataset](https://www.kaggle.com/datasets/litvinenko630/insurance-claims).  
 It contains **58K+ insurance policies** with details on policyholders, demographics, claim history, policy details, and vehicle risk factors.  
