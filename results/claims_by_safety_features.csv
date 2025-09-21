@@ -1,0 +1,4 @@
+"is_esc","is_parking_sensors","total_policies","total_claims","claim_rate_pct"
+True,True,"18401","1197","6.51"
+False,True,"37818","2423","6.41"
+False,False,"2373","128","5.39"
