@@ -1,5 +1,5 @@
 
-# Insurance Claims SQL + Tableau Dashboard
+# Insurance Claims Analytics with SQL, Supabase & Tableau
 
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Cloud-blue)
 ![Supabase](https://img.shields.io/badge/Supabase-RLS-green)
